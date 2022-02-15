@@ -1,20 +1,20 @@
 
-keptn-service-template-go
+redesigned-spoon
 ===========
 
-Helm Chart for the keptn keptn-service-template-go
+Helm Chart for the keptn redesigned-spoon
 
 
 ## Configuration
 
-The following table lists the configurable parameters of the keptn-service-template-go chart and their default values.
+The following table lists the configurable parameters of the redesigned-spoon chart and their default values.
 
 | Parameter                | Description             | Default        |
 | ------------------------ | ----------------------- | -------------- |
-| `image.repository` | Container image name | `"ghcr.io/keptn-sandbox/keptn-service-template-go"` |
+| `image.repository` | Container image name | `"ghcr.io/pchila/redesigned-spoon"` |
 | `image.pullPolicy` | Kubernetes image pull policy | `"IfNotPresent"` |
 | `image.tag` | Container tag | `""` |
-| `service.enabled` | Creates a kubernetes service for the keptn-service-template-go | `true` |
+| `service.enabled` | Creates a kubernetes service for the redesigned-spoon | `true` |
 | `distributor.stageFilter` | Sets the stage this helm service belongs to | `""` |
 | `distributor.serviceFilter` | Sets the service this helm service belongs to | `""` |
 | `distributor.projectFilter` | Sets the project this helm service belongs to | `""` |
