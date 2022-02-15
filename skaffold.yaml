@@ -14,7 +14,7 @@ deploy:
     flags:
       upgrade: ["--reuse-values", "--install"]
     releases:
-      - name: keptn-service-template-go
+      - name: redesigned-spoon
         namespace: keptn
         artifactOverrides:
           image: ghcr.io/pchila/redesigned-spoon # Todo: Replace this with your image name
